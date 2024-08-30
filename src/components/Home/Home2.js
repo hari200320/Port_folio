@@ -4,7 +4,6 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -19,11 +18,12 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I've developed a genuine passion for programming, and through my journey, I've acquired some valuable skills—I believe I've made meaningful progress… 🤷‍♂️
+              I've developed a genuine passion for programming, and through my journey, I've acquired some valuable skills—I believe I've made meaningful progress… 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I am fluent in classics like
               <i>
-                <b className="purple"> Python, Javascript and Data Structures. </b>
+                <b className="purple"> Python, JavaScript, and Data Structures. </b>
               </i>
               <br />
               <br />
@@ -31,18 +31,13 @@ function Home2() {
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
-                <b className="purple">
-                  Data Analysis and Analytics.
-                </b>
+                <b className="purple">Data Analysis and Analytics.</b>
               </i>
               <br />
               <br />
               Whenever the opportunity arises, I also enjoy applying my passion for building products using <b className="purple">Node.js</b> and
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+                <b className="purple"> Modern JavaScript Libraries and Frameworks</b>
               </i>
               &nbsp; like
               <i>
@@ -68,18 +63,17 @@ function Home2() {
                   href="https://github.com/hari200320"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
-              
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/hariharan-radhakrishnan-2663a322a/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -101,4 +95,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
