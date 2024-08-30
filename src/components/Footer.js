@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -14,7 +13,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          {/* <h3>Designed and Developed by Hariharan</h3> */}
+          {/* Removed commented-out heading */}
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} HR</h3>
@@ -31,7 +30,6 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
-            
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/hariharan-radhakrishnan-2663a322a/"
