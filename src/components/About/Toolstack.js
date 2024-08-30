@@ -3,6 +3,7 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiPycharm,
+  SiPowerbi,
 } from "react-icons/si"; 
 // Removed unused imports
 
@@ -28,6 +29,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} style={styles.icon}>
         <SiPycharm />
+      </Col>
+      <Col xs={4} md={2} style={styles.icon}>
+        <SiPowerbi />
       </Col>
     </Row>
   );

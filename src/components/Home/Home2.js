@@ -18,7 +18,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I've developed a genuine passion for programming, and through my journey, I've acquired some valuable skills—I believe I've made meaningful progress… 🤷‍♂️
+              I've developed a genuine passion for programming, and through my journey, I've acquired some valuable skills—I believe I've made a meaningful progress… 🤷‍♂️
               <br />
               <br />
               I am fluent in classics like
@@ -35,14 +35,12 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever the opportunity arises, I also enjoy applying my passion for building products using <b className="purple">Node.js</b> and
+              Whenever the opportunity arises, I enjoy applying my passion for building products using Frameworks like <b className="purple">Django</b> and also by applying my 
               <i>
-                <b className="purple"> Modern JavaScript Libraries and Frameworks</b>
+                <b className="purple"> Data analysis</b> skills
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js</b>
-              </i>
+              &nbsp; 
+              
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -53,7 +51,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>PING ME ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
