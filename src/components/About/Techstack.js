@@ -11,6 +11,10 @@ import {
   DiBootstrap,
   DiHtml5,
   DiCss3,
+  DiAndroid,
+  DiMongodb,
+  DiDocker,
+  DiRedis,
 } from "react-icons/di";
 // Removed unused imports
 
@@ -47,6 +51,21 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiBootstrap />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAndroid />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiRedis />
+      </Col>
+      {/* <Col xs={4} md={2} className="tech-icons">
+        <DiPy />
+      </Col> */}
     </Row>
   );
 }

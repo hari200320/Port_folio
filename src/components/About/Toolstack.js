@@ -4,6 +4,7 @@ import {
   SiVisualstudiocode,
   SiPycharm,
   SiPowerbi,
+  SiAndroidstudio,
 } from "react-icons/si"; 
 // Removed unused imports
 
@@ -26,6 +27,9 @@ function Toolstack() {
     <Row style={styles.row}>
       <Col xs={4} md={2} style={styles.icon}>
         <SiVisualstudiocode />
+      </Col>
+      <Col xs={4} md={2} style={styles.icon}>
+        <SiAndroidstudio />
       </Col>
       <Col xs={4} md={2} style={styles.icon}>
         <SiPycharm />
